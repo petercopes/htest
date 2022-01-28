@@ -21,7 +21,7 @@ public class MessageController {
     @Autowired
     private PersonService personService;
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String getHeroku() {
         logger.info("GET Hello, World");
         return "Hello, World";
